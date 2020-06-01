@@ -479,8 +479,8 @@ body.vjs-full-window {
     width: 3em;
     display: block;
     position: absolute;
-    /*top: 10px;*/
-    /*left: 10px;*/
+    margin-left: 45%;
+	margin-top: -25%;
     padding: 0;
     cursor: pointer;
     opacity: 1;
@@ -1334,7 +1334,7 @@ video::-webkit-media-text-track-display {
 }
 .video-js .vjs-subs-caps-button + .vjs-menu .vjs-captions-menu-item .vjs-menu-item-text .vjs-icon-placeholder:before {
     font-family: VideoJS;
-    content: "";
+    content: "Ã¯â€žÂ";
     font-size: 1.5em;
     line-height: inherit;
 }
@@ -1345,7 +1345,7 @@ video::-webkit-media-text-track-display {
 }
 .video-js .vjs-audio-button + .vjs-menu .vjs-main-desc-menu-item .vjs-menu-item-text .vjs-icon-placeholder:before {
     font-family: VideoJS;
-    content: " ";
+    content: " Ã¯â€žÂ";
     font-size: 1.5em;
     line-height: inherit;
 }
